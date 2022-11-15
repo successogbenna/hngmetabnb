@@ -11,7 +11,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Section />} />
-          <Route path='/place' element={<Place />} />
+          <Route path='/placetostay' element={<Place />} />
         </Routes>
         <Footer />
       </Router>

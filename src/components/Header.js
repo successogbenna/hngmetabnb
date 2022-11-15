@@ -21,7 +21,7 @@ function Header() {
           <li className={click ? 'active' : ''}
           onClick={handleClicks}
           >
-            <Link to='/place'>Place to stay</Link>
+            <Link to='/placetostay'>Place to stay</Link>
           </li>
 
           <li className={click ? 'active' : ''}
