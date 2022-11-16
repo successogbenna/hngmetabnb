@@ -1,9 +1,12 @@
-import React from 'react';
+import React from 'react'
 import '../App.css'
 import { useAppContext } from './Context'
-function Modal(props) {
-    const { wallet, handleClose } = useAppContext()
-    return (
+
+const Modal = () => {
+  const { wallet, handleClose } = useAppContext()
+
+  return (
+    // <div className="container">
         <div className={wallet ? "connect-wallet active" : "connect-wallet"}
         onClick={handleClose}
         >
@@ -37,7 +40,8 @@ function Modal(props) {
           </div>
         </div>
       </div>
-    );
+    // </div>
+  )
 }
 
-export default Modal;
+export default Modal

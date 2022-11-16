@@ -3,15 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Section from './components/Section';
-import Placestay from './components/Placestay';
+import Place from './components/Place';
+
 function App() {
   return (
     <div className="App">
-       <Router>
+      <Router>
         <Header />
         <Routes>
           <Route path='/' element={<Section />} />
-          <Route path='/placetostay' element={<Placestay />} />
+          <Route path='/place' element={<Place />} />
         </Routes>
         <Footer />
       </Router>

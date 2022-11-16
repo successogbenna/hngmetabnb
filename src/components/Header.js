@@ -1,10 +1,13 @@
-import React from 'react';
-import { useAppContext } from './Context'
+import React from 'react'
 import { Link } from 'react-router-dom'
-function Header() {
-      const { handleClick, handleClicks, click, nav } = useAppContext()
-    return (
-       <div className={nav ? "nav-bar active" : "nav-bar"}>
+import { useAppContext } from './Context'
+
+const Header = () => {
+
+  const { handleClick, handleClicks, click, nav } = useAppContext()
+  
+  return (
+    <div className={nav ? "nav-bar active" : "nav-bar"}>
     <div className="container">
       <div className='nav'>
        <Link to='/'>
@@ -21,7 +24,7 @@ function Header() {
           <li className={click ? 'active' : ''}
           onClick={handleClicks}
           >
-            <Link to='/placetostay'>Place to stay</Link>
+            <Link to='/place'>Place to stay</Link>
           </li>
 
           <li className={click ? 'active' : ''}
@@ -44,7 +47,7 @@ function Header() {
       </div>
     </div>
     </div>
-    );
+  )
 }
 
-export default Header;
+export default Header
