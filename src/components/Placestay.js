@@ -170,7 +170,7 @@ function Placestay() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/image16.png" alt="desertKing" />
+              <img src="/assets/image16.png" alt="image16" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -194,7 +194,7 @@ function Placestay() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/image18.png" alt="desertKing" />
+              <img src="/assets/image18.png" alt="image18" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -206,7 +206,7 @@ function Placestay() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/image19.png" alt="desertKing" />
+              <img src="/assets/image19.png" alt="image19" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
