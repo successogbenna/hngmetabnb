@@ -1,5 +1,8 @@
 import React, {useEffect} from 'react';
 import Modal from './Modal'
+
+
+
 function Section() {
     useEffect(() => {
     window.scrollTo({top: 0, behavior: 'smooth', duration: 500})
@@ -8,7 +11,7 @@ function Section() {
         <div>
       <Modal />
       <div className="container">
-        {/* HERRO-SECTION */}
+        {/* BANNER-SECTION START*/}
         <div 
         className= "section">
           <div className="txt-sec">
@@ -30,30 +33,32 @@ function Section() {
           </div>
 
           <div className="img-sec">
-            <img src="/assets/hero-image.png" alt="heroImage" />
+            <img src="/assets/banner-image.png" alt="bannerImage" />
           </div>
         </div>
       </div>
-      {/*  */}
+        {/* BANNER SECTION ENDS */}
+        
 
-      {/* LOGO-LABEL */}
+      {/* BANNER FOOTER STARTS */}
       <div className="icon-label">
         <div className="container icon-container">
           <img src="/assets/mb-token.svg" alt="token" />
           <img src="/assets/metamask.svg" alt="metamask" />
           <img src="/assets/opeansea.svg" alt="opensea" />
         </div>
-      </div>
-      {/*  */}
+        </div>
+        
+      {/* BANNER FOOTER ENDS */}
 
-      {/* INSPIRATIONS */}
+      {/* INSPIRATIONS SECTION STARTS */}
       <div className="container">
         <div className="inspiration">
           <h1>Inspiration for your next adventure</h1>
 
           <div className="card-container">
             <div className="card">
-              <img src="/assets/desert-king9.png" alt="desertKing" />
+              <img src="/assets/image8.png" alt="image8" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -65,7 +70,7 @@ function Section() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king2.png" alt="desertKing" />
+              <img src="/assets/image1.png" alt="image1" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -77,7 +82,7 @@ function Section() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king3.png" alt="desertKing" />
+              <img src="/assets/image2.png" alt="image2" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -89,7 +94,7 @@ function Section() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king4.png" alt="desertKing" />
+              <img src="/assets/image3.png" alt="image3" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -101,7 +106,7 @@ function Section() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king5.png" alt="desertKing" />
+              <img src="/assets/image4.png" alt="image4" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -113,7 +118,7 @@ function Section() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king6.png" alt="desertKing" />
+              <img src="/assets/image5.png" alt="image5" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -125,7 +130,7 @@ function Section() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king7.png" alt="desertKing" />
+              <img src="/assets/image6.png" alt="image6" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -137,7 +142,7 @@ function Section() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king8.png" alt="desertKing" />
+              <img src="/assets/image7.png" alt="image7" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -150,8 +155,11 @@ function Section() {
             </div>
           </div>
         </div>
-      </div>
-      {/* metabnb NFTs */}
+        </div>
+        {/* INSPIRATIONS SECTION ENDS */}
+        
+
+      {/* METABNB NFTs */}
       <div className="nfts-container">
             <div className="container flex-nfts">
               <div className="nft-txt">
@@ -162,11 +170,13 @@ function Section() {
                 <button>Learn more</button>
               </div>
               <div className="nft-image">
-                <img src="/assets/section-image.png" alt="nfts" />
+                <img src="/assets/metabnb-image.png" alt="metabnb" />
               </div>
             </div>
-          </div>
-    </div>
+        </div>
+        {/* METABNB NFTs ENDS */}
+      </div>
+      
     );
 }
 

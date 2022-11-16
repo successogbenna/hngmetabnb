@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import Modal from './Modal'
-function Place() {
+function Placestay() {
     useEffect(() => {
     window.scrollTo({top: 0, behavior: 'smooth', duration: 500})
   }, [])
@@ -26,7 +26,7 @@ function Place() {
       {/* cards */}
       <div className="card-container space">
             <div className="card">
-              <img src="/assets/desert-king5.png" alt="desertKing" />
+              <img src="/assets/image4.png" alt="image4" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -38,7 +38,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king6.png" alt="desertKing" />
+              <img src="/assets/image5.png" alt="image5" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -50,7 +50,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king7.png" alt="desertKing" />
+              <img src="/assets/image6.png" alt="image6" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -62,7 +62,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king8.png" alt="desertKing" />
+              <img src="/assets/image7.png" alt="image7" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -74,7 +74,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king9.png" alt="desertKing" />
+              <img src="/assets/image8.png" alt="image8" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -86,7 +86,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king2.png" alt="desertKing" />
+              <img src="/assets/image1.png" alt="image1" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -98,7 +98,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king11.png" alt="desertKing" />
+              <img src="/assets/image10.png" alt="image10" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -110,7 +110,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king12.png" alt="desertKing" />
+              <img src="/assets/image11.png" alt="image11" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -122,7 +122,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king13.png" alt="desertKing" />
+              <img src="/assets/image12.png" alt="image12" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -134,7 +134,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king14.png" alt="desertKing" />
+              <img src="/assets/image13.png" alt="image13" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -146,7 +146,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king15.png" alt="desertKing" />
+              <img src="/assets/image14.png" alt="image14" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -158,7 +158,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king16.png" alt="desertKing" />
+              <img src="/assets/image15.png" alt="image15" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -170,7 +170,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king17.png" alt="desertKing" />
+              <img src="/assets/image16.png" alt="desertKing" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -182,7 +182,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king18.png" alt="desertKing" />
+              <img src="/assets/image17.png" alt="image17" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -194,7 +194,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king19.png" alt="desertKing" />
+              <img src="/assets/image18.png" alt="desertKing" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -206,7 +206,7 @@ function Place() {
                 <img src="/assets/star.svg" alt="rating" />
             </div>
             <div className="card">
-              <img src="/assets/desert-king20.png" alt="desertKing" />
+              <img src="/assets/image19.png" alt="desertKing" />
               <span>
                 <p>Desert King</p>
                 <p>1MBT per night</p>
@@ -223,4 +223,4 @@ function Place() {
     );
 }
 
-export default Place;
+export default Placestay;
