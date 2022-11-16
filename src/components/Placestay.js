@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react'
 import Modal from './Modal'
 
-const Place = () => {
+const Placestay = () => {
   useEffect(() => {
     window.scrollTo({top: 0, behavior: 'smooth', duration: 500})
   }, [])
@@ -224,4 +224,4 @@ const Place = () => {
   )
 }
 
-export default Place
+export default Placestay
